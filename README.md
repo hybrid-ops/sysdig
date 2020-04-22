@@ -1,15 +1,5 @@
 # Sysdig SDK integration for CP4MCM 1.3
 
-
-    spoke with Brett and Alvero on zoom. The integration is mainly two steps
-    deploy the agent, make sure we can see the cluster in secure.
-    enable service id , so sysdig can detect events in our cluster.
-    sysdig integration team has scripts and tools that we can use to generate the events, that would trigger the events monitored by sysdig.
-
-
-    deploy the kube/ocp sysdig agent ( manually | helm chart ) using the api key associated to your account above.
-    create a service api key off of the existing service id grafeas-admin-service-id in Foundation IAM, and convey to SYSDIG team.
-
 ## Pre-reqs
 
 - Create a sysdig SAAS account https://sysdig.com/sign-up/
@@ -38,9 +28,9 @@ Currently the sysdig secure and monitor agent have the same steps.
 
 This needs to be done so that sysdig can detect events in the cluster
 
+1. Create a service api key off of the existing service id grafeas-admin-service-id in Foundation IAM
 
-
-
+TODO
 
 
 
